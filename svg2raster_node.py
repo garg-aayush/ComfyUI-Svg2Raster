@@ -1,4 +1,4 @@
-# svg_rasterizer_simple.py
+# svg2raster_node.py
 # Minimal SVG -> PNG/JPEG rasterizer for ComfyUI using CairoSVG (no font embedding).
 
 import io
