@@ -4,7 +4,7 @@ description = "A ComfyUI custom node to load SVG files and convert them to raste
 version = "1.0.0"
 license = {file = "LICENSE"} 
 
-dependencies = ["cairosvg", "pillow", "numpy<2.0.0"]
+dependencies = ["cairosvg", "pillow", "numpy"]
 
 [project.urls]
 Repository = "https://github.com/garg-aayush/ComfyUI-Svg2Raster"

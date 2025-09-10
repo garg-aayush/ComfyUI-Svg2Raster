@@ -1,0 +1,16 @@
+{
+    "custom_nodes": [
+        {
+            "name": "ComfyUI-Svg2Raster",
+            "description": "A ComfyUI custom node to load SVG files and rasterize them into images, with options for resizing, background color, and borders.",
+            "author": "garg-aayush",
+            "project": "https://github.com/garg-aayush/ComfyUI-Svg2Raster",
+            "files": [
+                "svg2raster_node.py",
+                "__init__.py",
+                "requirements.txt"
+            ],
+            "install_msg": "This node requires the 'Cairo' graphics library to be installed on your system. Please see the installation instructions in the README for details before using this node."
+        }
+    ]
+}
