@@ -1,7 +1,7 @@
 [project]
 name = "svg2raster"
 description = "A ComfyUI custom node to load SVG files and convert them to raster images, with options for resizing, background color, and borders."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 
 dependencies = ["cairosvg", "pillow", "numpy"]
