@@ -1,0 +1,21 @@
+[project]
+name = "svg2raster"
+description = "A ComfyUI custom node to load SVG files and convert them to raster images, with options for resizing, background color, and borders."
+version = "1.0.0"
+license = {file = "LICENSE"} 
+
+dependencies = ["cairosvg", "pillow", "numpy<2.0.0"]
+
+[project.urls]
+Repository = "https://github.com/garg-aayush/ComfyUI-Svg2Raster"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/garg-aayush/ComfyUI-Svg2Raster/wiki"
+"Bug Tracker" = "https://github.com/garg-aayush/ComfyUI-Svg2Raster/issues"
+
+[tool.comfy]
+PublisherId = "garg-aayush"
+DisplayName = "ComfyUI-Svg2Raster"
+Icon = ""
+includes = [] 
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+
